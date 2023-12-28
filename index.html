@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GC Module Percentile Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>GC Module Percentile Calculator</h1>
+<div class="input-container">
+  <h2>Long Exams (30%)</h2>
+  <div class="input-row">
+    <label for="longExam1">Long Exam 1:</label>
+    <input type="number" id="longExam1">
+    <label for="longExam2">Long Exam 2:</label>
+    <input type="number" id="longExam2">
+    <label for="longExam3">Long Exam 3:</label>
+    <input type="number" id="longExam3">
+    <label for="longExam4">Long Exam 4:</label>
+    <input type="number" id="longExam4">
+  </div>
+
+  <h2>Final Exams (30%)</h2>
+  <div class="input-row">
+    <label for="finalExam1">Final Exam 1:</label>
+    <input type="number" id="finalExam1">
+    <label for="finalExam2">Final Exam 2:</label>
+    <input type="number" id="finalExam2">
+    <label for="finalExam3">Final Exam 3:</label>
+    <input type="number" id="finalExam3">
+  </div>
+
+
+
+  <h2>Projection Exams (20%)</h2>
+  <div class="input-row">
+    <label for="microProjection">Micro Projection:</label>
+    <input type="number" id="microProjection">
+  </div>
+  <div class="input-row">
+    <label for="pathoProjection">Patho Projection:</label>
+    <input type="number" id="pathoProjection">
+  </div>
+  <div class="input-row">
+    <label for="pharmaProjection">Pharma Projection:</label>
+    <input type="number" id="pharmaProjection">
+  </div>
+
+  <h2>Lab (5%)</h2>
+  <div class="input-row">
+    <label for="lab">Lab Marks:</label>
+    <input type="number" id="lab">
+  </div>
+
+  <h2>Tutorial (15%)</h2>
+  <div class="input-row">
+    <label for="tutorial">Tutorial Marks:</label>
+    <input type="number" id="tutorial">
+  </div>
+
+  <button onclick="calculatePercentile()">Calculate Percentile</button>
+</div>
+<div id="result"></div>
+<script src="script.js"></script>
+</body>
+</html>

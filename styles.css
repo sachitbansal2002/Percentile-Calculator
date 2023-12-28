@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+  background-color: #f5f5f5;
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #555;
+}
+
+/* Container for inputs */
+.input-container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Input rows for grouping fields */
+.input-row {
+  display: grid; /* Use grid layout for better control */
+  grid-template-columns: repeat(2, 1fr); /* Define two equal columns */
+  margin-bottom: 10px;
+  align-items: center; /* Vertically align labels and inputs */
+}
+
+/* Labels for input fields */
+label {
+  width: 120px; /* Adjust width for grid layout */
+  text-align: right;
+  margin-right: 10px;
+  color: #333;
+}
+
+/* Input fields */
+input {
+  width: 150px; /* Slightly reduce width */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button for calculations */
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Results section */
+#result {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+}
