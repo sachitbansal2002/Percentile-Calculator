@@ -28,7 +28,7 @@ function calculatePercentile() {
     const tutorialPercentile = tutorial;
 
     // Apply formulas for each category
-    const longExamsPercentile = (((longExamsTotal / 280) * 50) + 50) * 0.3;
+    const longExamsPercentile = (((longExamsTotal / 240) * 50) + 50) * 0.3;
     const finalExamsPercentile = (((finalExamsTotal / 180) * 50) + 50) * 0.3;
     const projectionExamsPercentile = (((projectionExamsTotal * 50) + 50) * 0.2);
     const labPercentileFinal = labPercentile;
