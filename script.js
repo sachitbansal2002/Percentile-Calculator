@@ -13,8 +13,7 @@ function calculatePercentile() {
         parseFloat(document.getElementById('finalExam3').value)
     ];
 
-    const microProjection = parseFloat(document.getElementById('microProjection').value);
-    const pathoProjection = parseFloat(document.getElementById('pathoProjection').value);
+    const micropathoProjection = parseFloat(document.getElementById('micropathoProjection').value);
     const pharmaProjection = parseFloat(document.getElementById('pharmaProjection').value);
 
     const lab = parseFloat(document.getElementById('lab').value);
@@ -23,7 +22,7 @@ function calculatePercentile() {
     // Calculate percentile for each category
     const longExamsTotal = longExams.reduce((total, mark) => total + mark, 0);
     const finalExamsTotal = finalExams.reduce((total, mark) => total + mark, 0);
-    const projectionExamsTotal = ((microProjection + pathoProjection) * 5 + pharmaProjection) / 450;
+    const projectionExamsTotal = (micropathoProjection * 5 + pharmaProjection * 2) / 300;
     const labPercentile = lab;
     const tutorialPercentile = tutorial;
 
